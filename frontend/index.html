@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilotage de Projets - Coordinateur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="dashboard-header">
+        <div class="container">
+            <h1>Pilotage Global des Projets</h1>
+            <p>Vue coordinateur : Suivi de l'état d'avancement</p>
+            <div class="stats-bar" id="statsBar">
+                </div>
+        </div>
+    </header>
+
+    <main class="kanban-container">
+        <section class="column" id="propose">
+            <div class="column-header">
+                <h2>Proposés</h2>
+                <span class="count">0</span>
+            </div>
+            <div class="task-list"></div>
+        </section>
+
+        <section class="column" id="valide">
+            <div class="column-header">
+                <h2>Validés</h2>
+                <span class="count">0</span>
+            </div>
+            <div class="task-list"></div>
+        </section>
+
+        <section class="column" id="en-cours">
+            <div class="column-header">
+                <h2>En Cours</h2>
+                <span class="count">0</span>
+            </div>
+            <div class="task-list"></div>
+        </section>
+
+        <section class="column" id="soutenu">
+            <div class="column-header">
+                <h2>Soutenus</h2>
+                <span class="count">0</span>
+            </div>
+            <div class="task-list"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
